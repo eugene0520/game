@@ -205,13 +205,13 @@ var bulletCollision = function(bullets, monsters, hero){
     }
 }
 var bgImage = new Image();
-bgImage.src = "img/background.png";
+bgImage.src = "image/background.png";
 var heroImage = new Image();
-heroImage.src = "img/hero.png";
+heroImage.src = "image/hero.png";
 var bulletImage = new Image();
-bulletImage.src = "img/b1.png";
+bulletImage.src = "image/b1.png";
 var monsterImage = new Image();
-monsterImage.src = "img/monster.png";
+monsterImage.src = "image/monster.png";
 main();
 
 addEventListener("keydown", function (e) {
